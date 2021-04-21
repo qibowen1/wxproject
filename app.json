@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/firstpage",
+    "pages/index/myinfomation",
+    "pages/index/secondpage",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/rotapage/rotapage1",
+    "pages/rotapage/rotapage2",
+    "pages/rotapage/rotapage3",
+    "pages/rotapage/rotapage4"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "监督学习",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFEBCD",
+    "borderStyle": "white",
+    "selectedColor": "#87CEFA",
+    "list": [
+      {
+        "pagePath": "pages/index/firstpage",
+        "text": "首页",
+        "iconPath": "./image/tabericon/firstpage.png",
+        "selectedIconPath": "./image/tabericon/first-active.png"
+      },
+      {
+        "pagePath": "pages/index/secondpage",
+        "text": "消息",
+        "iconPath": "./image/tabericon/info.png",
+        "selectedIconPath": "./image/tabericon/info-active.png"
+      },
+      {
+        "pagePath": "pages/index/myinfomation",
+        "text": "我的",
+        "iconPath": "./image/tabericon/me.png",
+        "selectedIconPath": "./image/tabericon/me-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

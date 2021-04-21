@@ -1,0 +1,13 @@
+<!--pages/index/firstpage.wxml-->
+<!-- 轮播 -->
+<view>
+  <swiper indicator-dots="{{indicatordots}}" autoplay="{{autoplay}}" interval="{{interval}}" circular="circular" duration="{{duration}}" vertical="{{vertical}}" indicator-active-color="blue">
+    <block wx:for="{{imgs}}">
+      <swiper-item>
+        <navigator url="{{item.link}}" hover-class="nav-hover">
+          <image src="{{item.url}}" mode="widthFix"></image> 
+        </navigator>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
