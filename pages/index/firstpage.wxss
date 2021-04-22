@@ -1,1 +1,18 @@
 /* pages/index/firstpage.wxss */
+.swiperImgClass{
+  width: 100%;
+  overflow: hidden;
+}
+.swiperContain{
+  position: relative
+  left=0
+  right=0;
+  width : 100%;
+}
+.navHover{
+  color: coral;
+}
+.funcclass{
+  height: 120rpx;
+  width: 120rpx;
+}

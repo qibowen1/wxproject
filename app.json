@@ -8,11 +8,14 @@
     "pages/rotapage/rotapage1",
     "pages/rotapage/rotapage2",
     "pages/rotapage/rotapage3",
-    "pages/rotapage/rotapage4"
+    "pages/rotapage/rotapage4",
+    "pages/functionpage/signin",
+    "pages/functionpage/myaims",
+    "pages/functionpage/talking"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#DEB887",
     "navigationBarTitleText": "监督学习",
     "navigationBarTextStyle": "black"
   },

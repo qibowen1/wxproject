@@ -1,13 +1,20 @@
 <!--pages/index/firstpage.wxml-->
 <!-- 轮播 -->
-<view>
-  <swiper indicator-dots="{{indicatordots}}" autoplay="{{autoplay}}" interval="{{interval}}" circular="circular" duration="{{duration}}" vertical="{{vertical}}" indicator-active-color="blue">
+<view class="swiperContain">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" circular="circular" duration="{{duration}}" vertical="{{vertical}}" indicator-active-color="blue" >
     <block wx:for="{{imgs}}">
-      <swiper-item>
-        <navigator url="{{item.link}}" hover-class="nav-hover">
-          <image src="{{item.url}}" mode="widthFix"></image> 
+      <swiper-item catchtouchmove="{{catchTouchMove}}">
+        <navigator url="{{item.link}}" hover-class="navHover">
+          <image src="{{item.url}}" mode="widthFix" class="swiperImgClass"></image> 
         </navigator>
       </swiper-item>
     </block>
   </swiper>
 </view>
+
+<!-- 功能块 -->
+<block wx:for="{{functionContainer}}">
+  <navigator url="{{item.link}}" hover-class="navHover" id="{{item.id}}">
+    <image src="{{item.url}}" mode="scaleToFill" class="funcclass"></image>
+  </navigator>
+</block>
