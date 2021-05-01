@@ -1,18 +1,96 @@
 /* pages/index/firstpage.wxss */
+@import'./icon.wxss';
 .swiperImgClass{
   width: 100%;
   overflow: hidden;
 }
 .swiperContain{
+  height: 10 rpx;
   position: relative
   left=0
   right=0;
   width : 100%;
 }
-.navHover{
-  color: coral;
+
+.func-content{
+
+  background-color: linear-gradient(to bottom, #56ccf2, #2f80ed);
+  height: 400rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap是用来控制能否换行，必须设置为能换行 */
+  flex-wrap: wrap;
+  padding-top: 20rpx;
+  padding-right: 10rpx;
 }
-.funcclass{
+.mine-func-btn{
+  
+  padding: 20rpx 20rpx;
+  display: flex;
+  flex-direction: row;
+  /* 背景图片能够完全呈现，此处是关键，否则图片只显示局部 */
+  background-size: 100% 100%;
+
+}
+
+.mine-func-btn:not([size="default"]) {
+  /* 因为是按钮，有两个size，它的大小无法改变，此样式用来改变按钮的大小 */
+   height: 150rpx;
+   width: 45%;
+ }
+  
+ .title {
+   font-style: italic;
+   font-size: 40rpx;
+   color: rgb(197, 49, 57);
+   padding-top: 20rpx;
+   padding-left: 20rpx;
+ }
+
+ .icon {
+  color: rgb(82, 138, 211);
+  padding-left: 30rpx;
+ }
+.circle{
+    width: 128rpx;
+    height: 128rpx;
+    margin-left: 80rpx;
+    margin-top: 85rpx;
+    border: 0 solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 4px 1px 1px #cccccc;
+    text-align: center;
+}
+.btn_float{
+  position: fixed;
+  height: 100rpx;
+  width: 100rpx;
+  background-color: rgba(0, 255, 255, 0.755);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  box-shadow: 1px 0px 1px 1px #ede7e7;
+}
+.btn_fIcon{
+  position:absolute;
+  height:100%;
+  width:100%;
+  left:0%;
+  top:0%
+}
+.out_wave{
+  position: relative;
+  height:450rpx;
+  background-color: rgba(0, 255, 255, 1);
+}
+.wave{
+  position: absolute;
+  left: 0;
+  bottom: 0rpx;
+  width: 100%;
+  mix-blend-mode: screen;
   height: 120rpx;
-  width: 120rpx;
 }
