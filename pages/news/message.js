@@ -1,11 +1,11 @@
-// pages/index/secondpage.js
+// pages/news/message.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
+
   },
 
   /**
@@ -13,21 +13,6 @@ Page({
    */
   onLoad: function (options) {
 
-  },
-  wode:function(options){
-    wx.navigateTo({
-      url: '/pages/news/wode',
-    })
-  },
-  message:function(options){
-    wx.navigateTo({
-      url: '/pages/news/message',
-    })
-  },
-  zan:function(options){
-    wx.navigateTo({
-      url: '/pages/news/zan',
-    })
   },
 
   /**

@@ -1,1 +1,19 @@
 /* pages/index/secondpage.wxss */
+.image{
+  display:flex;
+  flex-wrap: wrap;
+}
+.im{
+  margin-left: 50rpx;
+  margin-top: 20rpx;
+  height: 120rpx;
+  width: 120rpx;
+  border-radius:100%;
+}
+.txt{
+  width:238rpx;
+  text-align: center
+}
+.t{
+margin-left: 50rpx;
+}

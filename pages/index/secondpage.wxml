@@ -1,2 +1,23 @@
-<!--pages/index/secondpage.wxml-->
-<text>pages/index/secondpage.wxml</text>
+<!--pages/indexcondpage.wxml-->
+<view class="image">
+  <view class="txt" bindtap="wode">
+    <image class="im" src="/image/news/我的.jpg"></image>
+    <view class="t">
+     我的
+    </view>
+  </view>
+
+  <view class="txt" bindtap="message">
+    <image class="im" src="/image/news/消息.jpg"></image>
+    <view class="t">
+     消息
+    </view>
+  </view>
+
+  <view class="txt" bindtap="zan">
+    <image class="im" src="/image/news/点赞.jpg"></image>
+    <view class="t">
+     点赞
+    </view>
+  </view>
+</view>
